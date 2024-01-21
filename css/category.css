@@ -1,0 +1,36 @@
+:root{
+    --background-body: #background: rgb(0,24,36);
+    background: linear-gradient(90deg, rgba(0,24,36,1) 0%, rgba(8,65,56,1) 47%, rgba(147,177,166,1) 100%);
+    --Nav-footer: white;
+    --Botones: #040D12;
+}
+
+body{
+    background-color: var(--background-body) !important;
+    font-family: 'roboto', sans-serif !important;
+} 
+.image{
+    width: 100% !important;
+    height: 350px !important;
+    
+    border:solid white 2px !important;
+}
+.logo{
+    font-size: 30px !important;
+    
+}
+.sup{
+    background-color: #183D3D !important;
+    color: white !important;
+}
+.image2{
+    width: 100% !important;
+
+}
+a{
+    text-decoration: none !important;
+}
+.title{
+    color: white !important;
+
+}

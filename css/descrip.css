@@ -1,0 +1,14 @@
+:root{
+    --background-body: #background: rgb(0,24,36);
+    background: linear-gradient(90deg, rgba(0,24,36,1) 0%, rgba(8,65,56,1) 47%, rgba(147,177,166,1) 100%);
+    --Nav-footer: white;
+    --Botones: #040D12;
+}
+
+body{
+    background-color: var(--background-body) !important;
+    font-family: 'roboto', sans-serif !important;
+} 
+.letra{
+    color: white !important;
+}

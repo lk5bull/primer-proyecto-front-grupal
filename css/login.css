@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(90deg, rgba(0,24,36,1) 0%, rgba(8,65,56,1) 47%, rgba(8,65,65,1)  100%);
+    
+
+}
+
+.imglogin {
+    background-image: url(/assets/img-login-sign/serlibre-marca-ropa.jpg);
+    background-position: right  ;
+    background-size: cover;
+}
+
+.fondolg {
+    background-color: #6da691
+}
+header{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-bottom: 100px !important;
+}
+nav.navbar{
+    background-color: whitesmoke !important;
+    border-bottom: 2px;
+    box-shadow: 0px 3px 8px -3px rgba(0,0,0,0.75);
+}
+footer{
+    font-family: "Roboto", sans-serif;
+    background-color: whitesmoke !important;
+    border-top: 1px solid rgb(227, 224, 224);
+}
+
+#footer-2{
+    padding-top: 20px !important;
+    
+}
+
+.footer-tt{
+    margin-bottom: 10px;
+}
+
+.redes{
+    display:none
+
+}
+@media screen and (min-width: 992px) {
+    .redes{
+      display:block;
+    }
+  }
+
+  .contacto{
+    display:none
+  }
+@media screen and (min-width: 600px) {
+    .contacto{
+      display:block;
+    }
+  }
+
+.div-button-google{
+    margin-bottom: 5px !important;
+}
+.div-button-google :link{
+    text-decoration: none;
+    font-weight: bold;
+}  
+
+.button-footer{
+    color:black;
+}
